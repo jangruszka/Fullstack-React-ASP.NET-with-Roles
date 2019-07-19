@@ -1,0 +1,85 @@
+/* Provide sufficient contrast against white background */
+a {
+  color: #0366d6;
+}
+
+code {
+  color: #E01A76;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+.mapMain {
+    height: 856px;
+    width:1180px;
+    position:relative;
+ background-size: cover;
+ border: 2px solid orange;
+ border-radius:20px;
+ margin:25px;
+}
+
+.pinMain {
+    position:absolute;
+    text-align:center;
+    color:orange;
+}
+.pinMain img {
+    height:40px;
+    
+}
+.pinMain p {
+    background: white;
+    border: 1px solid orange;
+    padding:1px;
+    margin:0;
+    font-size:14px;
+    font-weight:bold;
+}
+
+.modalBackdrop {
+    position:fixed;
+    width:100vw;
+    height:100vh;
+    top:0;
+    left:0;
+    background-color: rgba(0,0,0,0.5);
+    z-index:5;
+}
+
+
+.modalInner {
+    position:absolute;
+    width:50vw;
+    height:50vh;
+    top:25vh;
+    left:25vw;
+    background-color:white;
+    z-index:10;
+    border-radius:25px;
+    padding:50px;
+}
+.modalInner .btn-link {
+    font-size:24px;
+}
+
+.myOrders {
+    width: calc(100vw - 1180px - 50px);
+    height: 856px;
+    background: orange;
+    border-radius: 25px;
+    margin-top:25px;
+   
+}
+
+.oneOrder {
+    width: 80%;
+    background: white;
+    padding: 25px;
+    margin: auto;
+    border-radius: 15px;
+}
